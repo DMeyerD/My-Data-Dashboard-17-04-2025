@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sales Dashboard</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #f4f4f4; }
+  </style>
+</head>
+<body>
+  <h1>Sales Dashboard</h1>
+  <button id ="generate-report">Generate Report</button>
+  <p id ="report-status"></p>
+  <label for ="category-filter">Filter by Category:</label>
+  <select id ="category-filter">
+    <option value ="All">All</option>
+  </select>
+  <table id="data-table">
+    <thead></thead>
+    <tbody></tbody>
+  </table>
+  <canvas id="revenueChart" width="600" height="400"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="/static/script.js"></script>
+</body>
+</html>

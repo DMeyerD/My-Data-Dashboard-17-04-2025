@@ -1,0 +1,30 @@
+[
+  {
+    "product_id":1,
+    "name":"Widget A",
+    "category":"Tools",
+    "units_sold":120,
+    "revenue":2400
+  },
+  {
+    "product_id":2,
+    "name":"Widget B",
+    "category":"Tools",
+    "units_sold":80,
+    "revenue":1600
+  },
+  {
+    "product_id":3,
+    "name":"Gadget C",
+    "category":"Electronics",
+    "units_sold":50,
+    "revenue":3000
+  },
+  {
+    "product_id":4,
+    "name":"Device D",
+    "category":"Electronics",
+    "units_sold":200,
+    "revenue":10000
+  }
+]
